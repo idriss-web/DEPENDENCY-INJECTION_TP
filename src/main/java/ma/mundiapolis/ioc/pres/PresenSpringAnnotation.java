@@ -9,7 +9,7 @@ public class PresenSpringAnnotation {
 
 
     ApplicationContext applicationContext =
-            new AnnotationConfigApplicationContext("ma.mundiapolis.ioc.", "ma.mundiapolis.ioc.metier");
+            new AnnotationConfigApplicationContext("ma.mundiapolis.ioc.dao", "ma.mundiapolis.ioc.metier");
     IMetier metier = applicationContext.getBean(IMetier.class);
 System.out.println("RES="+metier.calcul());
 
