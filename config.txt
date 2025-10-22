@@ -1,2 +1,1 @@
-dao.DaoImpl
-metier.MetierImpl
+ma.mundiapolis.ioc.dao.DaoImpl

@@ -1,13 +1,12 @@
 package ma.mundiapolis.ioc.pres;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.lang.reflect.Constructor;
 import ma.mundiapolis.ioc.metier.IMetier;
 import ma.mundiapolis.ioc.dao.IDao;
 
-public class Presentation {
+public class Pres2 {
     public static void main(String[] args) throws Exception {
         try {
             Scanner scanner = new Scanner(new File("config.txt"));
