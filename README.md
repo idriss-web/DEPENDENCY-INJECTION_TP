@@ -13,3 +13,11 @@ Enfin, j’ai testé Spring avec annotations. J’ai utilisé "@Component" pour 
 Avec ce projet, j’ai compris que le couplage faible rend le code beaucoup plus flexible et facile à maintenir. L’injection statique est simple mais pas pratique pour changer les implémentations, l’injection dynamique est plus flexible mais demande plus d’attention, et Spring rend l’injection de dépendances très simple et automatique. J’ai appris beaucoup sur comment structurer un projet Java de manière propre et modulable. J’ai aussi compris l’importance de bien séparer les responsabilités entre les couches DAO et métier et comment chaque méthode d’injection peut influencer la maintenance et l’évolution du code.
 
 On utilise config.txt pour l’injection dynamique et config.xml pour Spring XML.
+
+---
+
+### Captures d’écran
+
+![Capture 1](screens/1.png)  
+![Capture 2](screens/2.png)  
+![Capture 3](screens/3.png)
