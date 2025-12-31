@@ -12,13 +12,15 @@ public class MetierImpl implements IMetier {
     @Qualifier("d2")
     private IDao dao;
 
+    public MetierImpl() {
+    }
+
     public MetierImpl(@Qualifier("d2") IDao dao) {
         this.dao = dao;
     }
 
     @Override
     public double calcul() {
-        double data = dao.getData();
-        return data * 100;
+        return dao.getData() * 100;
     }
 }
